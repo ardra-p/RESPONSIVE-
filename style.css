@@ -707,6 +707,15 @@ left: 300px;
     font-size: 30px;
     color: #000;
 }
+.messege{
+    display: flex;
+}
+.inputss{
+    padding-bottom: 20px;
+}
+.foot{
+    padding-top: 120px;
+}
 .checkbtn{
     font-size: 30px;
     color: #000;
@@ -790,7 +799,7 @@ left: 300px;
     .checkbtn {
         display: block;
         position: absolute;
-        right: 1300px;
+        right: 1240px;
         padding-top: 3px;
         cursor: pointer;
     }
@@ -1191,7 +1200,7 @@ left: 300px;
     .milestone > div {
         padding-right: 30px;
         background-color: #07F;
-        width: 100%;
+        width: 600;
         background-size: 100%;
         flex-direction: column;
         padding-left: 0; /* Remove left padding */
@@ -1204,9 +1213,12 @@ left: 300px;
         padding-top: 900px;
     }
     .sbox {
+        padding-left: 60px;
         max-width: 100%; /* No max-width to ensure full width */
         padding: 10px; /* Further reduced padding */
-        padding-bottom: 30px;
+        padding-bottom: 50px;
+        position: relative;
+        right: 20px;
     }
 
     .sbox h1 {
@@ -1234,6 +1246,9 @@ left: 300px;
         padding: 10px 20px; /* Reduced padding for smaller screens */
         font-size: 14px; /* Adjusted font size */
     }
+    .smallbt{
+        padding-right: 60px;
+    }
 
     .btui, .bran, .wd {
         border: 1px solid #07F;
@@ -1258,17 +1273,31 @@ left: 300px;
             line-height: 1.2; /* Adjusted line-height */
             padding: 0 10px; /* Adjust padding */
         }
-    
-        .arrowblue, .arr {
-            width: 30px; /* Reduced width for smaller screens */
-            height: 30px; /* Reduced height for smaller screens */
+      .test{
+        font-size: 30px;
+        padding-top: 910px;
+      }
+      .the{
+        position: relative;
+        right: 100px;
+       padding-right: 300px;
+      }
+       
+        .arrbt{
+            padding-top: 50px;
+            display: block;
+            width: 30px;
+            height: 30px;
         }
     
         .Testimonials > div {
-            padding-top: 600px;
+        
             flex-direction: column;
             position: static; /* Reset positioning */
             left: 0;
+        }
+        .ft{
+            padding-top: 10px;
         }
     
         .ft, .fts {
@@ -1278,7 +1307,7 @@ left: 300px;
             padding: 20px; /* Adjust padding for smaller screens */
         }
     
-        .ft img, .fts img {
+        .tesphoto {
             width: 80px; /* Reduced width of profile images */
             height: 80px; /* Reduced height of profile images */
         }
@@ -1297,93 +1326,96 @@ left: 300px;
             gap: 20px; /* Reduce gap between items */
         }
         .star{
-            width: 5px;
-            height: 5px;
+            width: 17px;
+            height:17px;
         }
     }
+
+        .contact {
+            font-size: 16px;
+            padding-top: 30px;
+        }
     
-    .background-section {
-        padding: 10px;
-    }
-
-    .contact {
-        font-size: 18px;
-    }
-
-    .req {
-        font-size: 24px;
-    }
-
-    .contact-info {
+        .req {
+            font-size: 30px;
+            line-height: 35px;
+        }
+       .messege{
         flex-direction: column;
-        align-items: center;
-        padding: 10px;
-    }
-
-    .message {
-        flex-direction: column;
-        
-    }
-
-    .add {
-        width: 300px;
         position: relative;
-        right: 350px;
+        right: 190px;
+        padding-bottom: 50px;
+       }
+        .add {
+            padding: 20px;
+            padding-top: 60px;
+            padding-left: 20px;
+            width: 300px;
+           
+        }
         
-    }
-
-    .bu1, .bu2, .bu3 {
-        width: calc(100% - 20px);
-        padding: 10px;
-    }
-
-    .bu2, .bu3 {
-        max-width: none;
-    }
-    .face{
-        display: block;
-        width: 100px;
-        position:left;
-        
-    }
-    .inputss{
-        position: relative;
-        right: 350px;
-    }
-
-    @media (max-width: 600px) {
-        .foot {
-            flex-direction: column;
-            text-align: center;
+        .bu1, .bu2, .bu3 {
+            width:350px;
+        }
+    
+        .bu1, .bu2, .bu3 {
             padding: 10px;
         }
     
+        .bu3 {
+            height: auto; /* Allow height to adjust based on content */
+        }
+    
+        .tck {
+            font-size: 12px;
+        }
         .con {
-            width: 24px;
-            height: 24px;
-            margin-bottom: 10px;
+            left: 10px; /* Adjust position */
+            width: 30px;
+            height: 30px;
         }
     
         .hion {
             font-size: 20px;
-            margin-bottom: 10px;
+            left: 50px; /* Adjust position */
         }
     
         .copy {
             font-size: 14px;
-            margin-bottom: 10px;
+            left: 150px; /* Adjust position */
         }
     
         .follo {
+            padding-bottom: 75px;
             font-size: 16px;
-            margin-bottom: 10px;
+            left: 400px; /* Adjust position */
         }
     
-        .social-icons {
+        .face {
             position: relative;
-            right: 1000px;
+            left: auto; /* Reset absolute positioning */
+            padding-top: 10px;
+            display: flex;
+            justify-content: center; /* Center icons horizontally */
+            gap: 10px; /* Space between icons */
             margin-top: 10px;
         }
+    
+        .face img {
+            width: 24px; /* Adjust icon size */
+            height: 24px;
+            position: relative;
+            right: 1250px;
+        }
+    
+        /* Adjust the footer layout for smaller screens */
+        .foot {
+            background-color: #07F;
+            padding-top: 20px; /* Adjust padding */
+            flex-direction: column;
+            align-items: center;
+            text-align: center; /* Center align text */
+            padding-bottom: 60px;
+        }
     }
-}
     
